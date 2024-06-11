@@ -1,0 +1,54 @@
+.left{
+    border-style: solid;
+    padding: 10px;
+    
+    width: 30%;
+}
+.right{
+    border-style: solid;
+    padding: 10px;
+    
+    width: 70%;
+}
+.container{
+    display: flex;
+    padding: 20px;
+}
+form{
+    border: 1px solid #dddddd;
+    padding: 30px;
+    background-color: #b4afaf;
+}
+
+input[type="text"],input[type="number"],input[type="email"]{
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 8px;
+}
+input[type="submit"]{
+    padding: 7px;
+    background-color: rgb(207, 218, 228);
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+table{
+    padding: 7px;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+}
+td,th{
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    padding: 10px;
+}
+#msg,#msg1{
+    color: rgb(180, 74, 74);
+}
